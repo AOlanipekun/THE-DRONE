@@ -1,0 +1,6 @@
+serialno model weightlimit batterycapacity state
+D001122334455 model_Lightweight 500 80 idle
+D001122334456 model_Middleweight 200 90 idle
+D001122334457 model_Middleweight 400 24 loading
+D001122334458 model_Middleweight 400 70 loaded
+D001122334459 model_Lightweight 400 100 loaded
