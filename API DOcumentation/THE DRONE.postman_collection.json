@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "42be63ff-ac84-4af9-8637-37034514dbea",
+		"name": "THE DRONE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:19051/drone_availability",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"serialno\": \"D001122334457\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:19051/drone_availability",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "19051",
+					"path": [
+						"drone_availability"
+					]
+				},
+				"description": "THE DRONE API"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:19051/drone_reg",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"serialno\": \"D001122334459\",\r\n    \"model\": \"model_Lightweight\",\r\n    \"weightlimit\" : \"400\",\r\n    \"batterycapacity\" : \"100\",\r\n    \"state\":\"loaded\"\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:19051/drone_reg",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "19051",
+					"path": [
+						"drone_reg"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:19051/drone_batterylevel",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"serialno\": \"D001122334457\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:19051/drone_batterylevel",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "19051",
+					"path": [
+						"drone_batterylevel"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:19051/drone_LoadingCheck",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:19051/drone_LoadingCheck",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "19051",
+					"path": [
+						"drone_LoadingCheck"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:19051/medication_reg",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"medicationID\": \"M001122334459\",\r\n    \"name\": \"Paracetamol\",\r\n    \"weight\" : \"200\",\r\n    \"code\" : \"1001\",\r\n    \"image\":\"c://testlocation\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:19051/medication_reg",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "19051",
+					"path": [
+						"medication_reg"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

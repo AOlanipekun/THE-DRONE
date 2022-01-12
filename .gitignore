@@ -1,4 +1,2 @@
 /TheDrone/nbproject/
-*/dist/
-*/nbproject/
-*/build/
+*/target/
